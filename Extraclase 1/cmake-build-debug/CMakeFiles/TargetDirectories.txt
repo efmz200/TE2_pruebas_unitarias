@@ -1,3 +1,0 @@
-/home/drump1/Desktop/TE1/Extraclase 1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/drump1/Desktop/TE1/Extraclase 1/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/drump1/Desktop/TE1/Extraclase 1/cmake-build-debug/CMakeFiles/Extraclase_1.dir
