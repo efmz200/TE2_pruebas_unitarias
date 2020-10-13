@@ -1,0 +1,4 @@
+/home/drump1/Desktop/Extraclase 1/build-client-Desktop_Qt_5_15_1_GCC_64bit-Debug/CMakeFiles/rebuild_cache.dir
+/home/drump1/Desktop/Extraclase 1/build-client-Desktop_Qt_5_15_1_GCC_64bit-Debug/CMakeFiles/edit_cache.dir
+/home/drump1/Desktop/Extraclase 1/build-client-Desktop_Qt_5_15_1_GCC_64bit-Debug/CMakeFiles/client.dir
+/home/drump1/Desktop/Extraclase 1/build-client-Desktop_Qt_5_15_1_GCC_64bit-Debug/CMakeFiles/client_autogen.dir

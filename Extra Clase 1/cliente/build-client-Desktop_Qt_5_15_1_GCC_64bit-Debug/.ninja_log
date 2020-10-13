@@ -1,0 +1,12 @@
+# ninja log v5
+15	287	1600968295179231259	/home/drump1/Desktop/Extraclase 1/client/client_es_CR.ts	6657feeb96ccd92d
+20	1922	1600968179520491369	CMakeFiles/client.dir/widget.cpp.o	89eb9f3423a0def8
+1922	2179	1600968179776468039	client	d3ddf87cc10b04ff
+202	1664	1600965170982014390	CMakeFiles/client.dir/main.cpp.o	7a9e5cd4e03db46b
+15	287	1600968295179231259	CMakeFiles/client_es_CR.ts_lst_file	6657feeb96ccd92d
+202	1584	1600965170902011606	CMakeFiles/client.dir/client_autogen/mocs_compilation.cpp.o	7dabd3b8b2561b44
+0	197	1600965169513963326	client_autogen/timestamp	552e6d896893e82d
+0	4	1600995308798567970	/home/drump1/Desktop/Extraclase 1/client/client_es_CR.ts	6657feeb96ccd92d
+0	4	1600995308798567970	CMakeFiles/client_es_CR.ts_lst_file	6657feeb96ccd92d
+4	1544	1600995310438649736	CMakeFiles/client.dir/widget.cpp.o	89eb9f3423a0def8
+1544	2688	1600995311582705120	client	d3ddf87cc10b04ff
