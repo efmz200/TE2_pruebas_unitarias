@@ -1,0 +1,3 @@
+/home/drump1/Desktop/te 2/TE2_pruebas_unitarias/Extra Clase 1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/drump1/Desktop/te 2/TE2_pruebas_unitarias/Extra Clase 1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/drump1/Desktop/te 2/TE2_pruebas_unitarias/Extra Clase 1/cmake-build-debug/CMakeFiles/TE2_pruebas_unitarias.dir

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/TE2_pruebas_unitarias.dir/home/drump1/Desktop/te_2/TE2_pruebas_unitarias/main.cpp.o  -o TE2_pruebas_unitarias  -lgtest_main 
