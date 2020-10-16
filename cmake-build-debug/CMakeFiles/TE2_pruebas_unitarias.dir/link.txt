@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/TE2_pruebas_unitarias.dir/main.cpp.o  -o TE2_pruebas_unitarias  lib/libgtest_maind.a lib/libgtestd.a -lpthread 
