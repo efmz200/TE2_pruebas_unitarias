@@ -17,14 +17,15 @@ public:
      */
     string prueba(){
         graf->agregaVert("a");
-        graf->agregaVert("b");
-        graf->agregaVert("c");
-        graf->agregaVert("d");
-        graf->agregarArista(5,"a","b");
-        graf->agregarArista(3,"a","c");
-        graf->agregarArista(3,"b","c");
-        graf->agregarArista(1,"c","d");
+        //graf->agregaVert("b");
+        //graf->agregaVert("c");
+        //graf->agregaVert("d");
+        //graf->agregarArista(5,"a","b");
+        //graf->agregarArista(3,"a","c");
+        //graf->agregarArista(3,"b","c");
+        //graf->agregarArista(1,"c","d");
         string msg=graf->genmatriz();
+        cout<<msg;
         return msg;
     }
 

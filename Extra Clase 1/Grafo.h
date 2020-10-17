@@ -190,7 +190,7 @@ class Grafo {
      * @brief Metodo para probar el grafo en el cual ademas de hacer el floyd Warshall se impmrime el grafo antes y
      * despues de realizar dicho metodo para poder ver el cambio en el grafo
      */
-    void prueba_matriz(){
+    string prueba_matriz(){
         int largo;//cantidad de nodos en el grafo
         largo=lengrafo();
         largo++;
@@ -277,7 +277,9 @@ class Grafo {
                 std::cout << arr[i][a] ;
             }
         }
+
     }
+
     };
 
 #endif //EXTRACLASE_1_GRAFO_H

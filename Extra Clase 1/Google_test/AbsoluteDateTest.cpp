@@ -1,13 +1,12 @@
 #include "gtest/gtest.h"
 
 #include "../Grafo.h"
-
+#include "/home/drump1/Desktop/te 2/TE2_pruebas_unitarias/servidor/Vertice.h"
 
 #include <iostream>
 
-TEST(AbsoluteDateTestSuite, ExampleDate){
+TEST(AbsoluteDateTestSuite, lenProof){
     Grafo *graf=new Grafo();
-    cout<<"hola";
     graf->agregaVert("a");
     graf->agregaVert("b");
     graf->agregaVert("bsdfvf");
@@ -19,11 +18,15 @@ TEST(AbsoluteDateTestSuite, ExampleDate){
     EXPECT_EQ(graf->lengrafo(),7);
 }
 
-TEST(AbsoluteDateTestSuite, IncorrectDate){ // 12/0/2020 -> 0
-    GregorianDate gregDate;
-    gregDate.SetMonth(12);
-    gregDate.SetDay(0);
-    gregDate.SetYear(2020);
-
-    ASSERT_EQ(gregDate.getAbsoluteDate(),0);
+TEST(AbsoluteDateTestSuite, NullProof){
+    Grafo *graf=new Grafo();
+    graf->agregaVert("a");
+    graf->agregaVert("b");
+    ASSERT_EQ(graf->getVertice("c"), nullptr);
 }
+
+TEST(AbsoluteDateTestSuite, lenProof2){
+    Grafo *graf=new Grafo();
+    ASSERT_EQ(graf->lengrafo(),0 );
+}
+
