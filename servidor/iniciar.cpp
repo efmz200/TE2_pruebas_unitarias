@@ -7,7 +7,7 @@
 #include <string>
 #include <string.h>
 #include "Server.cpp"
-#include "Grafo.h"
+#include "../Extra Clase 1/Grafo.h"
 using namespace std;
 
 /**

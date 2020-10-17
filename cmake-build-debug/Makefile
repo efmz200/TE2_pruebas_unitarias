@@ -190,6 +190,19 @@ TE2_pruebas_unitarias/fast:
 .PHONY : TE2_pruebas_unitarias/fast
 
 #=============================================================================
+# Target rules for targets named Google_Test_run
+
+# Build rule for target.
+Google_Test_run: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Google_Test_run
+.PHONY : Google_Test_run
+
+# fast build rule for target.
+Google_Test_run/fast:
+	$(MAKE) $(MAKESILENT) -f "Extra Clase 1/Google_test/CMakeFiles/Google_Test_run.dir/build.make" "Extra Clase 1/Google_test/CMakeFiles/Google_Test_run.dir/build"
+.PHONY : Google_Test_run/fast
+
+#=============================================================================
 # Target rules for targets named gmock_main
 
 # Build rule for target.
@@ -280,6 +293,7 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... Google_Test_run"
 	@echo "... TE2_pruebas_unitarias"
 	@echo "... gmock"
 	@echo "... gmock_main"

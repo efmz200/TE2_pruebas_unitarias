@@ -6,7 +6,7 @@
 #include <stdlib.h>
 #include <netinet/in.h>
 #include <string.h>
-#include "Grafo.h"
+#include "../Extra Clase 1/Grafo.h"
 #include "iostream"
 #define PORT 8080
 using namespace std;

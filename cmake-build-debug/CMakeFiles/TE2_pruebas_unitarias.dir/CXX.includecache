@@ -1,0 +1,80 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/drump1/Desktop/te 2/TE2_pruebas_unitarias/Extra Clase 1/Grafo.h
+iostream
+-
+../servidor/Vertice.h
+/home/drump1/Desktop/te 2/TE2_pruebas_unitarias/servidor/Vertice.h
+../servidor/Arista.h
+/home/drump1/Desktop/te 2/TE2_pruebas_unitarias/servidor/Arista.h
+
+/home/drump1/Desktop/te 2/TE2_pruebas_unitarias/main.cpp
+servidor/iniciar.cpp
+/home/drump1/Desktop/te 2/TE2_pruebas_unitarias/servidor/iniciar.cpp
+
+/home/drump1/Desktop/te 2/TE2_pruebas_unitarias/servidor/Arista.h
+Vertice.h
+/home/drump1/Desktop/te 2/TE2_pruebas_unitarias/servidor/Vertice.h
+iostream
+-
+
+/home/drump1/Desktop/te 2/TE2_pruebas_unitarias/servidor/Server.cpp
+Server.h
+/home/drump1/Desktop/te 2/TE2_pruebas_unitarias/servidor/Server.h
+unistd.h
+-
+stdio.h
+-
+sys/socket.h
+-
+stdlib.h
+-
+netinet/in.h
+-
+string.h
+-
+../Extra Clase 1/Grafo.h
+/home/drump1/Desktop/te 2/TE2_pruebas_unitarias/Extra Clase 1/Grafo.h
+iostream
+/home/drump1/Desktop/te 2/TE2_pruebas_unitarias/servidor/iostream
+
+/home/drump1/Desktop/te 2/TE2_pruebas_unitarias/servidor/Server.h
+../Extra Clase 1/Grafo.h
+/home/drump1/Desktop/te 2/TE2_pruebas_unitarias/Extra Clase 1/Grafo.h
+string
+-
+
+/home/drump1/Desktop/te 2/TE2_pruebas_unitarias/servidor/Vertice.h
+Arista.h
+/home/drump1/Desktop/te 2/TE2_pruebas_unitarias/servidor/Arista.h
+iostream
+-
+
+/home/drump1/Desktop/te 2/TE2_pruebas_unitarias/servidor/iniciar.cpp
+iostream
+-
+sys/types.h
+-
+sys/socket.h
+-
+netdb.h
+-
+arpa/inet.h
+-
+unistd.h
+-
+string
+-
+string.h
+-
+Server.cpp
+/home/drump1/Desktop/te 2/TE2_pruebas_unitarias/servidor/Server.cpp
+../Extra Clase 1/Grafo.h
+/home/drump1/Desktop/te 2/TE2_pruebas_unitarias/Extra Clase 1/Grafo.h
+

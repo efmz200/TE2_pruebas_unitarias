@@ -23,8 +23,8 @@
 
 #define EXTRACLASE_1_GRAFO_H
 #define INF 999
-#include "Vertice.h"
-#include "Arista.h"
+#include "../servidor/Vertice.h"
+#include "../servidor/Arista.h"
 using namespace std;
 
 class Grafo {

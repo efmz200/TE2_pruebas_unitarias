@@ -4,7 +4,7 @@
 
 #ifndef EXTRACLASE_1_SERVER_H
 #define EXTRACLASE_1_SERVER_H
-#include "Grafo.h"
+#include "../Extra Clase 1/Grafo.h"
 #include <string>
 class Server {
 

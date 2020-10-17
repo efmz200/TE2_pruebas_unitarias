@@ -125,6 +125,56 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/drump1/Desktop/te\ 2/TE2_pruebas_unitarias/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Google_Test_run">
+				<Option output="/home/drump1/Desktop/te 2/TE2_pruebas_unitarias/cmake-build-debug/Extra Clase 1/Google_test/Google_Test_run" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/drump1/Desktop/te 2/TE2_pruebas_unitarias/cmake-build-debug/Extra Clase 1/Google_test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/drump1/Desktop/te 2/TE2_pruebas_unitarias/Extra Clase 1/Google_test/lib/googletest-master/googletest/include/home/drump1/Desktop/te 2/TE2_pruebas_unitarias/Extra Clase 1/Google_test/lib/googletest-master/googletest"/>
+					<Add directory="/home/drump1/Desktop/te 2/TE2_pruebas_unitarias/Extra Clase 1/Google_test/lib/googletest-master/googletest/include"/>
+					<Add directory="/home/drump1/Desktop/te 2/TE2_pruebas_unitarias/Extra Clase 1/Google_test/lib/googletest-master/googletest"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/drump1/Desktop/te\ 2/TE2_pruebas_unitarias/cmake-build-debug/Extra\ Clase\ 1/Google_test/Makefile&quot;  VERBOSE=1 Google_Test_run"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/drump1/Desktop/te\ 2/TE2_pruebas_unitarias/cmake-build-debug/Extra\ Clase\ 1/Google_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/drump1/Desktop/te\ 2/TE2_pruebas_unitarias/cmake-build-debug/Extra\ Clase\ 1/Google_test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/drump1/Desktop/te\ 2/TE2_pruebas_unitarias/cmake-build-debug/Extra\ Clase\ 1/Google_test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Google_Test_run/fast">
+				<Option output="/home/drump1/Desktop/te 2/TE2_pruebas_unitarias/cmake-build-debug/Extra Clase 1/Google_test/Google_Test_run" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/drump1/Desktop/te 2/TE2_pruebas_unitarias/cmake-build-debug/Extra Clase 1/Google_test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/drump1/Desktop/te 2/TE2_pruebas_unitarias/Extra Clase 1/Google_test/lib/googletest-master/googletest/include/home/drump1/Desktop/te 2/TE2_pruebas_unitarias/Extra Clase 1/Google_test/lib/googletest-master/googletest"/>
+					<Add directory="/home/drump1/Desktop/te 2/TE2_pruebas_unitarias/Extra Clase 1/Google_test/lib/googletest-master/googletest/include"/>
+					<Add directory="/home/drump1/Desktop/te 2/TE2_pruebas_unitarias/Extra Clase 1/Google_test/lib/googletest-master/googletest"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/drump1/Desktop/te\ 2/TE2_pruebas_unitarias/cmake-build-debug/Extra\ Clase\ 1/Google_test/Makefile&quot;  VERBOSE=1 Google_Test_run/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/drump1/Desktop/te\ 2/TE2_pruebas_unitarias/cmake-build-debug/Extra\ Clase\ 1/Google_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/drump1/Desktop/te\ 2/TE2_pruebas_unitarias/cmake-build-debug/Extra\ Clase\ 1/Google_test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/drump1/Desktop/te\ 2/TE2_pruebas_unitarias/cmake-build-debug/Extra\ Clase\ 1/Google_test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="gmock_main">
 				<Option output="/home/drump1/Desktop/te 2/TE2_pruebas_unitarias/cmake-build-debug/lib/libgmock_maind.a" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/drump1/Desktop/te 2/TE2_pruebas_unitarias/cmake-build-debug/Extra Clase 1/Google_test/lib/googletest-master/googlemock"/>
@@ -326,6 +376,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/drump1/Desktop/te 2/TE2_pruebas_unitarias/Extra Clase 1/Google_test/AbsoluteDateTest.cpp">
+			<Option target="Google_Test_run"/>
+		</Unit>
+		<Unit filename="/home/drump1/Desktop/te 2/TE2_pruebas_unitarias/Extra Clase 1/Google_test/ConverterTest.cpp">
+			<Option target="Google_Test_run"/>
+		</Unit>
 		<Unit filename="/home/drump1/Desktop/te 2/TE2_pruebas_unitarias/Extra Clase 1/Google_test/lib/googletest-master/googlemock/src/gmock-all.cc">
 			<Option target="gmock"/>
 		</Unit>

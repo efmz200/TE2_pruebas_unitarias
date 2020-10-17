@@ -100,6 +100,28 @@ install/local/fast: preinstall/fast
 	/snap/clion/129/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/snap/clion/129/bin/cmake/linux/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/snap/clion/129/bin/cmake/linux/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
+
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+
+.PHONY : list_install_components/fast
+
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -121,28 +143,6 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
-
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
-.PHONY : list_install_components
-
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
-
-.PHONY : list_install_components/fast
-
-# Special rule for the target install
-install: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/snap/clion/129/bin/cmake/linux/bin/cmake -P cmake_install.cmake
-.PHONY : install
-
-# Special rule for the target install
-install/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/snap/clion/129/bin/cmake/linux/bin/cmake -P cmake_install.cmake
-.PHONY : install/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -176,6 +176,75 @@ depend:
 	cd "/home/drump1/Desktop/te 2/TE2_pruebas_unitarias/cmake-build-debug" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+# Convenience name for target.
+Extra\ Clase\ 1/Google_test/CMakeFiles/Google_Test_run.dir/rule:
+	cd "/home/drump1/Desktop/te 2/TE2_pruebas_unitarias/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 "Extra Clase 1/Google_test/CMakeFiles/Google_Test_run.dir/rule"
+.PHONY : Extra\ Clase\ 1/Google_test/CMakeFiles/Google_Test_run.dir/rule
+
+# Convenience name for target.
+Google_Test_run: Extra\ Clase\ 1/Google_test/CMakeFiles/Google_Test_run.dir/rule
+
+.PHONY : Google_Test_run
+
+# fast build rule for target.
+Google_Test_run/fast:
+	cd "/home/drump1/Desktop/te 2/TE2_pruebas_unitarias/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f "Extra Clase 1/Google_test/CMakeFiles/Google_Test_run.dir/build.make" "Extra Clase 1/Google_test/CMakeFiles/Google_Test_run.dir/build"
+.PHONY : Google_Test_run/fast
+
+AbsoluteDateTest.o: AbsoluteDateTest.cpp.o
+
+.PHONY : AbsoluteDateTest.o
+
+# target to build an object file
+AbsoluteDateTest.cpp.o:
+	cd "/home/drump1/Desktop/te 2/TE2_pruebas_unitarias/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f "Extra Clase 1/Google_test/CMakeFiles/Google_Test_run.dir/build.make" "Extra Clase 1/Google_test/CMakeFiles/Google_Test_run.dir/AbsoluteDateTest.cpp.o"
+.PHONY : AbsoluteDateTest.cpp.o
+
+AbsoluteDateTest.i: AbsoluteDateTest.cpp.i
+
+.PHONY : AbsoluteDateTest.i
+
+# target to preprocess a source file
+AbsoluteDateTest.cpp.i:
+	cd "/home/drump1/Desktop/te 2/TE2_pruebas_unitarias/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f "Extra Clase 1/Google_test/CMakeFiles/Google_Test_run.dir/build.make" "Extra Clase 1/Google_test/CMakeFiles/Google_Test_run.dir/AbsoluteDateTest.cpp.i"
+.PHONY : AbsoluteDateTest.cpp.i
+
+AbsoluteDateTest.s: AbsoluteDateTest.cpp.s
+
+.PHONY : AbsoluteDateTest.s
+
+# target to generate assembly for a file
+AbsoluteDateTest.cpp.s:
+	cd "/home/drump1/Desktop/te 2/TE2_pruebas_unitarias/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f "Extra Clase 1/Google_test/CMakeFiles/Google_Test_run.dir/build.make" "Extra Clase 1/Google_test/CMakeFiles/Google_Test_run.dir/AbsoluteDateTest.cpp.s"
+.PHONY : AbsoluteDateTest.cpp.s
+
+ConverterTest.o: ConverterTest.cpp.o
+
+.PHONY : ConverterTest.o
+
+# target to build an object file
+ConverterTest.cpp.o:
+	cd "/home/drump1/Desktop/te 2/TE2_pruebas_unitarias/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f "Extra Clase 1/Google_test/CMakeFiles/Google_Test_run.dir/build.make" "Extra Clase 1/Google_test/CMakeFiles/Google_Test_run.dir/ConverterTest.cpp.o"
+.PHONY : ConverterTest.cpp.o
+
+ConverterTest.i: ConverterTest.cpp.i
+
+.PHONY : ConverterTest.i
+
+# target to preprocess a source file
+ConverterTest.cpp.i:
+	cd "/home/drump1/Desktop/te 2/TE2_pruebas_unitarias/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f "Extra Clase 1/Google_test/CMakeFiles/Google_Test_run.dir/build.make" "Extra Clase 1/Google_test/CMakeFiles/Google_Test_run.dir/ConverterTest.cpp.i"
+.PHONY : ConverterTest.cpp.i
+
+ConverterTest.s: ConverterTest.cpp.s
+
+.PHONY : ConverterTest.s
+
+# target to generate assembly for a file
+ConverterTest.cpp.s:
+	cd "/home/drump1/Desktop/te 2/TE2_pruebas_unitarias/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f "Extra Clase 1/Google_test/CMakeFiles/Google_Test_run.dir/build.make" "Extra Clase 1/Google_test/CMakeFiles/Google_Test_run.dir/ConverterTest.cpp.s"
+.PHONY : ConverterTest.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -188,6 +257,13 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... Google_Test_run"
+	@echo "... AbsoluteDateTest.o"
+	@echo "... AbsoluteDateTest.i"
+	@echo "... AbsoluteDateTest.s"
+	@echo "... ConverterTest.o"
+	@echo "... ConverterTest.i"
+	@echo "... ConverterTest.s"
 .PHONY : help
 
 

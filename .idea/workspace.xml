@@ -3,6 +3,11 @@
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
       <config projectName="TE2_pruebas_unitarias" targetName="TE2_pruebas_unitarias" />
+      <config projectName="TE2_pruebas_unitarias" targetName="gmock" />
+      <config projectName="TE2_pruebas_unitarias" targetName="gtest_main" />
+      <config projectName="TE2_pruebas_unitarias" targetName="Google_Test_run" />
+      <config projectName="TE2_pruebas_unitarias" targetName="gmock_main" />
+      <config projectName="TE2_pruebas_unitarias" targetName="gtest" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -40,7 +45,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/CMakeLists.txt" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -50,14 +55,26 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Extra Clase 1/Google_test" />
       <recent name="$PROJECT_DIR$/Extra Clase 1" />
+      <recent name="$PROJECT_DIR$/servidor" />
+      <recent name="$PROJECT_DIR$/Extra Clase 1/Google_test" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.TE2_pruebas_unitarias">
+  <component name="RunManager" selected="Google Test.AbsoluteDateTestSuite.ExampleDate">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AbsoluteDateTestSuite.ExampleDate" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TE2_pruebas_unitarias" TARGET_NAME="Google_Test_run" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="TE2_pruebas_unitarias" RUN_TARGET_NAME="Google_Test_run" TEST_CLASS="AbsoluteDateTestSuite" TEST_METHOD="ExampleDate" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Google_Test_run" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TE2_pruebas_unitarias" TARGET_NAME="Google_Test_run" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="TE2_pruebas_unitarias" RUN_TARGET_NAME="Google_Test_run">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="TE2_pruebas_unitarias" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TE2_pruebas_unitarias" TARGET_NAME="TE2_pruebas_unitarias" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="TE2_pruebas_unitarias" RUN_TARGET_NAME="TE2_pruebas_unitarias">
@@ -92,11 +109,18 @@
     </configuration>
     <list>
       <item itemvalue="CMake Application.TE2_pruebas_unitarias" />
+      <item itemvalue="CMake Application.Google_Test_run" />
       <item itemvalue="CMake Application.gmock" />
       <item itemvalue="CMake Application.gmock_main" />
       <item itemvalue="CMake Application.gtest" />
       <item itemvalue="CMake Application.gtest_main" />
+      <item itemvalue="Google Test.AbsoluteDateTestSuite.ExampleDate" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Google Test.AbsoluteDateTestSuite.ExampleDate" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -106,7 +130,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602640049579</updated>
-      <workItem from="1602640050646" duration="9523000" />
+      <workItem from="1602640050646" duration="15251000" />
     </task>
     <servers />
   </component>
@@ -118,25 +142,29 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="418" y="211" width="1084" height="736" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1602641553122" />
-    <state x="743" y="337" width="424" height="491" key="FileChooserDialogImpl" timestamp="1602641707229">
+    <state x="743" y="337" width="424" height="491" key="FileChooserDialogImpl" timestamp="1602898885319">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="743" y="337" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1602641707229" />
-    <state width="914" height="275" key="GridCell.Tab.0.bottom" timestamp="1602880833637">
+    <state x="743" y="337" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1602898885319" />
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom" timestamp="1602898942632">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="914" height="275" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1602880833637" />
-    <state width="914" height="275" key="GridCell.Tab.0.center" timestamp="1602880833637">
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1602898942632" />
+    <state width="1874" height="275" key="GridCell.Tab.0.center" timestamp="1602898942632">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="914" height="275" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1602880833637" />
-    <state width="914" height="275" key="GridCell.Tab.0.left" timestamp="1602880833637">
+    <state width="1874" height="275" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1602898942632" />
+    <state width="1874" height="275" key="GridCell.Tab.0.left" timestamp="1602898942631">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="914" height="275" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1602880833637" />
-    <state width="914" height="275" key="GridCell.Tab.0.right" timestamp="1602880833637">
+    <state width="1874" height="275" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1602898942631" />
+    <state width="1874" height="275" key="GridCell.Tab.0.right" timestamp="1602898942632">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="914" height="275" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1602880833637" />
+    <state width="1874" height="275" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1602898942632" />
+    <state x="651" y="118" width="618" height="870" key="find.popup" timestamp="1602898886886">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="651" y="118" width="618" height="870" key="find.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1602898886886" />
   </component>
 </project>
